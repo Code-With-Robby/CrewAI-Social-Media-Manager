@@ -1,0 +1,33 @@
+research_task:
+  description: >
+    Research the athlete named {athlete_name}. 
+    Provide a concise, factual summary of their career background and most relevant/recent accomplishments, fights, titles, rankings, or milestones.
+    Prioritize events and results from 2024–{current_year} if available.
+    Include specific details: dates, opponents, results, titles won/lost, rankings, notable techniques, or career highlights.
+    Be accurate and neutral — no hype.
+  expected_output: >
+    A concise paragraph summary (4–8 sentences) containing only the career overview and recent highlights. 
+    No introductions, no questions, no bullet points unless needed for clarity.
+  agent: researcher
+
+dm_generation_task:
+  description: >
+    Using the research summary from the previous task, write a concise, respectful, personalized direct message (Instagram or Twitter/X DM) inviting {athlete_name} for an interview on the @Rob-J-BJJ YouTube channel.
+    
+    Step 1: Select 2–3 of the most impressive/recent highlights from the research and mention them naturally at the beginning to show genuine awareness and respect.
+       - Be very specific (dates, opponents, results, titles, etc.).
+       - Keep the opening natural — never overly flattering.
+    
+    Step 2: Transition smoothly into introducing the channel: it creates authentic, technical breakdowns, educational insights, and short-form content about grappling, MMA, and high-level combat sports — made for serious fans and practitioners.
+    
+    Step 3: Clearly invite them for an interview/conversation about their journey, mindset, experience, and insights into BJJ/MMA. Emphasize that scheduling is flexible — whenever is convenient for them.
+    
+    Rules:
+    - Tone: friendly, professional, brief, authentic — like a real fan who respects the sport
+    - First person only ("I"), name: Robert
+    - No hashtags, minimal/no emojis, no corporate/spammy language
+    - Max 1000 characters
+    - Output ONLY the final polished DM — nothing else
+  expected_output: >
+    A single, polished direct message ready to send. Nothing else.
+  agent: social_media_manager
