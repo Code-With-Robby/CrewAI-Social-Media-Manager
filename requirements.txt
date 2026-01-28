@@ -3,4 +3,4 @@ crewai-tools   # for SerperDevTool
 python-dotenv
 flask         # for the web form
 gunicorn     # Render's default WSGI server
-serper-dev    # if using Serper tool
+#serper-dev    # if using Serper tool
