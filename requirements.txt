@@ -1,6 +1,6 @@
-crewai==1.8.1
-crewai-tools==0.8.3   # for SerperDevTool
-python-dotenv==1.0.1
-flask==3.0.3          # for the web form
-gunicorn==23.0.0      # Render's default WSGI server
-serper-dev==0.1.0     # if using Serper tool
+crewai
+crewai-tools   # for SerperDevTool
+python-dotenv
+flask         # for the web form
+gunicorn     # Render's default WSGI server
+serper-dev    # if using Serper tool
