@@ -1,4 +1,5 @@
 crewai
+crewai[google-genai]
 crewai-tools   # for SerperDevTool
 python-dotenv
 flask         # for the web form
