@@ -1,6 +1,6 @@
 # app.py - Render deployment entry point
 from flask import Flask, request, render_template_string
-from social_media_manager.crew import SocialMediaManager
+from .crew import SocialMediaManager
 import os
 
 app = Flask(__name__)
