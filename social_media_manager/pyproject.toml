@@ -1,0 +1,2 @@
+[tool.crewai]
+entry_point = "app:app"  # points to app.py → Flask app
